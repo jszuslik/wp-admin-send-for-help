@@ -35,7 +35,7 @@ class WP_Admin_Send_For_Help {
 	 * Display the contents of the new tab
 	 */
 	public function display() {
-		echo 'Form will go here.';
+		echo '<iframe src="http://norulesweb.com/contact/" width="800" height="400"></iframe>';
 	}
 }
 $wp_admin_help_form = new WP_Admin_Send_For_Help();
